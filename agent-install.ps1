@@ -29,8 +29,8 @@
 #>
 
 param(
-    [string]$EnrollHostname        = "agent-register.pisgsoc.site",
-    [string]$AgentHostname         = "agent.pisgsoc.site",
+    [string]$EnrollHostname        = "",
+    [string]$AgentHostname         = "",
     [string]$ServiceTokenId        = $env:CF_SERVICE_TOKEN_ID,
     [string]$ServiceTokenSecret    = $env:CF_SERVICE_TOKEN_SECRET,
     [string]$RegistrationPassword  = $env:WAZUH_REGISTRATION_PASSWORD,
